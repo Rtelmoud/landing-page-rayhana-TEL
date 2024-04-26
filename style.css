@@ -1,0 +1,163 @@
+/* Write some CSS below */
+body{ 
+    font-size: 18px;
+    font-family:"overpass",serif;
+    margin: 0;
+}
+h1{ 
+    font-size: 45px;
+}
+h2{
+    font-size: 34px
+}
+h3{ 
+    font-size: 24px
+}
+h1+h2+h3{ font-family:"chivo"
+}
+.en-tete{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: black;
+  color: aliceblue;
+}
+
+.list{
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+.header-logo img {
+    height: 90px;
+}
+.content-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+  }
+.content-list li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.banner{
+    background-image:url(images/automne-fond-cuisine-concept-cuisson-tarte-aux-pommes-pommes-rouges-fraiches-epices-douces-sucre-farine_136595-3919.jpg) ;
+    background-position: center;
+    background-size: cover;
+    margin: 0px;
+    padding: 70px 0;
+    color: aliceblue;
+    text-align: center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.6);
+    margin-bottom: 20px;
+}
+#introduction p{ 
+    margin-bottom: 50px;
+}
+.banner-logo {
+    height: 150px;
+    width: auto; 
+    margin-bottom: 20px; 
+  }  
+.btn-ios,.btn-android{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    background-color: rgb(205, 104, 104);
+    padding: 15px 25px;
+    font-family: "chivo",serif;
+    font-weight: 700;
+    margin: 0 20px;
+    margin-top: 50px;
+    display: inline-block;
+}
+
+.section-white{
+    color: black;
+    padding: 50px 0;
+}
+.container{
+    margin: 20px auto;
+    width: 900px;
+}
+.card-white{
+    background-color: rgb(137, 37, 0);
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    width: 200px; ;
+    color: aliceblue;
+}
+.card-white img{
+    border-radius: 4px;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 16px;
+}
+.temoignage { 
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.2);
+    border-radius: 50px;
+    border-color: black;
+    padding: 20px;
+    width: 400px;
+    color: rgb(0, 0, 0);
+    align-items: center;
+    font-size: small;
+}
+.temoignage img{ 
+    border-radius: 6px;
+    width: 150px;
+    height: 150px;
+    object-fit: fill;
+    align-items: center;
+    
+}
+.mini-card{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+ 
+.footer-container{
+    background-color:black;
+    color: rgb(251, 197, 80);
+    padding: 50px 0;
+    font-size: 14px;
+    text-align: center;
+}
+   
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    max-width: 1200px;
+    margin: 0 auto; /
+    padding: 0 20px;
+}
+  
+.footer-content a {
+    color: aliceblue; 
+    text-decoration: none;
+    margin: 0 10px;
+}
+.footer-content a:hover {
+    text-decoration: underline;
+}
+.footer-content p {
+    margin: 0; 
+}
+
